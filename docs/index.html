@@ -1,0 +1,85 @@
+
+
+html<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Product Description API</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#0f0f0f;color:#fff}
+header{background:#1a1a2e;padding:20px 40px;display:flex;justify-content:space-between;align-items:center}
+header h1{color:#e94560;font-size:1.4rem}
+nav a{color:#fff;text-decoration:none;margin-left:20px}
+.hero{text-align:center;padding:80px 20px;background:linear-gradient(135deg,#1a1a2e,#16213e)}
+.hero h2{font-size:2.5rem;margin-bottom:20px}
+.hero h2 span{color:#e94560}
+.hero p{font-size:1.1rem;color:#ccc;max-width:600px;margin:0 auto 30px}
+.btn{background:#e94560;color:#fff;padding:14px 32px;border-radius:8px;text-decoration:none;font-size:1rem;font-weight:bold}
+.plans{padding:60px 20px;text-align:center}
+.plans h2{font-size:2rem;margin-bottom:40px}
+.plans-grid{display:flex;justify-content:center;gap:24px;flex-wrap:wrap}
+.plan{background:#1a1a2e;border-radius:12px;padding:32px 24px;width:260px;border:2px solid transparent}
+.plan.popular{border-color:#e94560}
+.plan .price{font-size:2.2rem;font-weight:bold;color:#e94560;margin:12px 0}
+.plan ul{list-style:none;margin:16px 0 24px;text-align:left}
+.plan ul li{padding:6px 0;color:#ccc}
+.plan a{display:block;background:#e94560;color:#fff;padding:12px;border-radius:8px;text-decoration:none;font-weight:bold;text-align:center}
+footer{text-align:center;padding:30px;color:#666;background:#0f0f0f}
+footer a{color:#e94560;text-decoration:none}
+</style>
+</head>
+<body>
+<header>
+<h1>AI Product Description API</h1>
+<nav>
+<a href="#planes">Planes</a>
+<a href="https://web-production-28676.up.railway.app/docs" target="_blank">Docs</a>
+</nav>
+</header>
+<section class="hero">
+<h2>Descripciones de productos<br><span>con Inteligencia Artificial</span></h2>
+<p>Genera descripciones atractivas para MercadoLibre, Shopify y mas en menos de 2 segundos.</p>
+<a href="#planes" class="btn">Ver planes</a>
+</section>
+<section class="plans" id="planes">
+<h2>Elegi tu plan</h2>
+<div class="plans-grid">
+<div class="plan">
+<h3>Free</h3>
+<div class="price">$0</div>
+<ul>
+<li>10 requests por hora</li>
+<li>Endpoint /describe</li>
+<li>Soporte por email</li>
+</ul>
+<a href="https://web-production-28676.up.railway.app/docs" target="_blank">Probar gratis</a>
+</div>
+<div class="plan popular">
+<h3>Basic</h3>
+<div class="price">$9.99/mes</div>
+<ul>
+<li>100 requests por hora</li>
+<li>Todos los endpoints</li>
+<li>API key dedicada</li>
+</ul>
+<a href="https://paypal.me/oskiluche/9.99" target="_blank">Comprar Basic</a>
+</div>
+<div class="plan">
+<h3>Pro</h3>
+<div class="price">$29.99/mes</div>
+<ul>
+<li>1000 requests por hora</li>
+<li>Todos los endpoints</li>
+<li>API key dedicada</li>
+</ul>
+<a href="https://paypal.me/oskiluche/29.99" target="_blank">Comprar Pro</a>
+</div>
+</div>
+</section>
+<footer>
+<p>AI Product Description API - <a href="mailto:oskigera@gmail.com">oskigera@gmail.com</a></p>
+</footer>
+</body>
+</html>
